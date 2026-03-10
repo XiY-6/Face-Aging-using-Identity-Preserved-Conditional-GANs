@@ -386,3 +386,4 @@ class FaceAging(object):
     def load_model(self, model_name):
         print("load model" + model_name)
         self.saver.restore(self.sess, model_name)
+
